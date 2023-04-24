@@ -1,0 +1,77 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.supend-left {
+    background-image: url('/vhict/BACKGROUND.JPG');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 !important;
+}
+
+.supend-logo-wrapper {
+    margin-top: 45vh;
+    background: #FFFFFF;
+}
+
+.supend-logo {
+    max-width: 20em;
+    padding: 2em;
+}
+
+.supend-right {
+    margin: auto;
+    text-align: left;
+    padding: 0 5em;
+}
+
+.supend-btn {
+  background-color: #f36d21;
+  border-color: white;
+  color: #FFFFFF;
+  border-radius: 0;
+}
+
+.supend-btn:hover {
+  background-color: #FFFFFF;
+  border-color: #f36d21;
+  color: #f36d21;
+  border-radius: 0;
+}
+
+.supend-alert {
+  background-color: #265273;
+  border-color: #265273;
+  color: #FFFFFF;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+a {
+    color: #f36d21;
+}
+
+a:hover {
+    color: #265273;
+}
+
+
+/* Mobieltjes */
+
+@media only screen and (max-width: 900px) {
+  .supend-left {
+      min-height: 30vh;
+  }
+  .supend-logo-wrapper {
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+  }
+  .supend-right {
+    padding: 0 1em;
+  }
+  .supend-btn {
+    display: block;
+  }
+}
