@@ -3,7 +3,7 @@ body {
 }
 
 .supend-left {
-    background-image: url('/vhict/BACKGROUND.JPG');
+    background-image: url('./vhict/BACKGROUND.jpg');
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
