@@ -19,7 +19,7 @@ header('HTTP/1.0 403 Forbidden');
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href="/vhict/vhict.css">
+		<link rel="stylesheet" href="./vhict/vhict.css">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 		  
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,7 +33,7 @@ header('HTTP/1.0 403 Forbidden');
 				<div class="row text-center">
 					<div class="col-12 col-lg-6 supend-left">
 						<div class="supend-logo-wrapper">
-							<img class="supend-logo" src="/vhict/logo.png"/>
+							<img class="supend-logo" src="./vhict/logo.png"/>
 						</div>
 					</div>
 
